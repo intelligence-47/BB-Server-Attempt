@@ -1,0 +1,90 @@
+
+
+package pbb.lobby.common;
+
+public enum MessageType {
+    START(0),
+    S_LOGIN_FAILED(1),
+    S_CREATE_ID_FAILED(2),
+    S_SESSION_INFO(3),
+    S_START_SESSION(4),
+    S_SERVER(5),
+    S_USER_START(6),
+    S_USER_RESTART(7),
+    S_INTRO(8),
+    S_USER_INFO(9),
+    S_GLOBAL_SYNC(10),
+    S_INVENTORY(11),
+    S_STORE(12),
+    S_ROOM_LIST(13),
+    S_MODE(14),
+    S_LOBBY(15),
+    S_ROOM(16),
+    S_LADDER(17),
+    S_SINGLE_PLAY(18),
+    S_USER_RECORDS(19),
+    S_HOST(20),
+    S_GAME(21),
+    S_OBSERVER(22),
+    S_USER_MSG(23),
+    S_TRANS_SERVER(24),
+    S_REWARD(25),
+    S_NOTICE(26),
+    S_ERROR(27),
+    S_RANK(28),
+    S_GM_START(29),
+    S_CAPSULE_MACHINE(30),
+    S_COMMUNITY(31),
+    S_CHAT(32),
+    S_CHAT_ROOM(33),
+    S_SECURITY(34),
+    HS_HOST_SERVER_INFO(35),
+    HS_HOST_SERVER(36),
+    LS_HOST_SERVER(37),
+    C_CLIENT_INFO(38),
+    C_CLIENT_TRANSFER_INFO(39),
+    C_CLIENT_INFO_CHATTER(40),
+    C_CLIENT_INFO_HOST(41),
+    C_SESSION_READY(42),
+    C_SERVER(43),
+    C_USER_INFO(44),
+    C_INTRO(45),
+    C_TUTORIAL(46),
+    C_INVENTORY(47),
+    C_STORE(48),
+    C_MODE(49),
+    C_LOBBY(50),
+    C_ROOM(51),
+    C_LADDER(52),
+    C_SINGLE_PLAY(53),
+    C_HOST(54),
+    C_GAME(55),
+    C_ITEM(56),
+    C_USER_MSG(57),
+    C_UDP(58),
+    C_COMMAND(59),
+    C_DEV_COMMAND(60),
+    C_RANK(61),
+    C_RECORD(62),
+    C_CAPSULE_MACHINE(63),
+    C_COMMUNITY(64),
+    C_CHAT(65),
+    C_CHAT_ROOM(66),
+    C_SECURITY(67),
+    GM_CLIENT_INFO(68),
+    GM_MSG(69),
+    GM_COMMAND(70),
+    GM_SERVER_INFO(71),
+    GM_GM_START(72),
+    GM_GM_END(73);
+
+    private final int id;
+
+    private MessageType(int id) {
+        this.id = id;
+    }
+
+    public int id() {
+        return this.id;
+    }
+}

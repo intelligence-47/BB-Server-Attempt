@@ -1,0 +1,6 @@
+
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§îŒŸ
+G
+java:S1068",Remove this unused "nickname" private field.(³Ñ£øÿÿÿÿ
+]	java:S125/"<This block of commented-out lines of code should be removed.(”„ÒÙúÿÿÿÿ8šßƒÀÑ.

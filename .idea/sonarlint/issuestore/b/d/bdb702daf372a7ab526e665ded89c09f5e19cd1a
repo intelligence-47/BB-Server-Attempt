@@ -1,0 +1,8 @@
+
+G
+java:S1905*"1Remove this unnecessary cast to "MessageHandler".(­Õ¶®
+5
+java:S1640
+"Convert this Map to an EnumMap.(Æ…Ðø
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ìŒáÄùÿÿÿÿ
